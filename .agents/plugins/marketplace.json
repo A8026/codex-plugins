@@ -1,56 +1,56 @@
-﻿{
-    "name":  "personal",
-    "interface":  {
-                      "displayName":  "A8026\u0027s Plugins"
-                  },
-    "plugins":  [
-                    {
-                        "policy":  {
-                                       "installation":  "AVAILABLE",
-                                       "authentication":  "ON_INSTALL"
-                                   },
-                        "category":  "Developer Tools",
-                        "name":  "github",
-                        "source":  {
-                                       "path":  "./plugins/github",
-                                       "source":  "local"
-                                   }
-                    },
-                    {
-                        "policy":  {
-                                       "installation":  "AVAILABLE",
-                                       "authentication":  "ON_INSTALL"
-                                   },
-                        "category":  "Security",
-                        "name":  "codex-security",
-                        "source":  {
-                                       "path":  "./plugins/codex-security",
-                                       "source":  "local"
-                                   }
-                    },
-                    {
-                        "policy":  {
-                                       "installation":  "AVAILABLE",
-                                       "authentication":  "ON_INSTALL"
-                                   },
-                        "category":  "Developer Tools",
-                        "name":  "openai-ads-conversions",
-                        "source":  {
-                                       "path":  "./plugins/openai-ads-conversions",
-                                       "source":  "local"
-                                   }
-                    },
-                    {
-                        "policy":  {
-                                       "installation":  "AVAILABLE",
-                                       "authentication":  "ON_USE"
-                                   },
-                        "category":  "Developer Tools",
-                        "name":  "build-web-data-visualization",
-                        "source":  {
-                                       "path":  "./plugins/build-web-data-visualization",
-                                       "source":  "local"
-                                   }
-                    }
-                ]
+{
+  "name": "personal",
+  "interface": {
+    "displayName": "A8026's Plugins"
+  },
+  "plugins": [
+    {
+      "name": "github",
+      "source": {
+        "source": "local",
+        "path": "./plugins/github"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "codex-security",
+      "source": {
+        "source": "local",
+        "path": "./plugins/codex-security"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Security"
+    },
+    {
+      "name": "openai-ads-conversions",
+      "source": {
+        "source": "local",
+        "path": "./plugins/openai-ads-conversions"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "build-web-data-visualization",
+      "source": {
+        "source": "local",
+        "path": "./plugins/build-web-data-visualization"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Developer Tools"
+    }
+  ]
 }
